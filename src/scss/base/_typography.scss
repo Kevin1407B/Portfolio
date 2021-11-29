@@ -1,0 +1,6 @@
+@use '../abstracts/' as *;
+
+p {
+    font-weight: $fw-900;
+    font-size: $fs-900;
+}

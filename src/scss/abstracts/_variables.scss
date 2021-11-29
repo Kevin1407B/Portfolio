@@ -1,0 +1,56 @@
+
+/* 
+====================
+    COLOR-PALETTE 
+====================
+*/
+
+$bg-gray: rgba(230, 230, 230, 0.8);
+$bg-banner: rgba(115, 115, 115, 0.95);
+$bg-form: rgba(81, 80, 134, 0.6);
+$col-dark: rgba(115, 115, 115, 1);
+$col-accent: rgba(81, 80, 134, 1);
+$col-light: rgba(228, 228, 228, 1);
+
+
+body {
+    background-color: $bg-form;
+}
+
+
+
+
+/* 
+====================
+    FONT-WEIGHTS 
+====================
+*/
+
+$fw-900: 900;
+$fw-700: 700;
+$fw-500: 500;
+$fw-400: 400;
+
+
+// p {
+//     font-weight: $fw-900;
+// }
+
+
+
+
+/* 
+====================
+    FONT-SIZES
+====================
+*/
+
+$fs-900: clamp(3rem, 5vw, 5rem);
+$fs-700: clamp(1.2rem, 2.5vw, 3rem);
+$fs-500: clamp(1rem, 1.8vw, 1.1rem);
+$fs-400: clamp(.8rem, 1.5vw, 1.1rem);
+$fs-footer: clamp(.7rem, 1.3vw, .8rem);
+
+// p {
+//     font-size: $fs-900;
+// }

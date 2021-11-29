@@ -1,0 +1,16 @@
+@forward '../base/typography';
+// example @forward '../abstracts/variables';
+
+/*
+ *  =========================
+ *  Essentially, a base
+ *  style says that wherever this element is on the page, it should look
+ *  like this.
+ *  =========================
+ */
+
+
+// html, body, form { margin: 0; padding: 0; }
+// input[type=text] { border: 1px solid #999; }
+// a { color: #039; }
+// a:hover { color: #03C; }
