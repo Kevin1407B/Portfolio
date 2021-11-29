@@ -1,2 +1,3 @@
-@forward '../abstracts/variables';
 // example @forward '../abstracts/variables'; if file is _reset.scss
+@forward '../abstracts/variables';
+@forward '../abstracts/normalize';

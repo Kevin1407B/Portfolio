@@ -13,11 +13,6 @@ $col-accent: rgba(81, 80, 134, 1);
 $col-light: rgba(228, 228, 228, 1);
 
 
-body {
-    background-color: $bg-form;
-}
-
-
 
 
 /* 
@@ -30,11 +25,6 @@ $fw-900: 900;
 $fw-700: 700;
 $fw-500: 500;
 $fw-400: 400;
-
-
-// p {
-//     font-weight: $fw-900;
-// }
 
 
 
@@ -50,7 +40,3 @@ $fs-700: clamp(1.2rem, 2.5vw, 3rem);
 $fs-500: clamp(1rem, 1.8vw, 1.1rem);
 $fs-400: clamp(.8rem, 1.5vw, 1.1rem);
 $fs-footer: clamp(.7rem, 1.3vw, .8rem);
-
-// p {
-//     font-size: $fs-900;
-// }
