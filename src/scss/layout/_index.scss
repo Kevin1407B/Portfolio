@@ -1,9 +1,9 @@
-@forward '';
 // example @forward '../abstracts/variables';
+@forward '../layout/grid';
 
 /*
  *  ==================================
  *  Layout rules divide the page into sections. 
- *  Layouts hold one ormore modules together.
+ *  Layouts hold one or more modules together.
  *  ==================================
  */
