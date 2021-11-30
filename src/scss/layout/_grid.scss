@@ -1,0 +1,16 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: 5rem 1fr 1fr 5rem;
+    grid-template-areas:
+    "h h h h"
+    "m m m m";
+}
+
+.header {
+    grid-area: h;
+}
+
+.main {
+    grid-area: m;
+}

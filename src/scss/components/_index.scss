@@ -1,5 +1,6 @@
-@forward '';
 // example @forward '../abstracts/variables';
+@forward '../components/nav';
+@forward '../components/burger-menu';
 
 /*
  *  ===============================================
