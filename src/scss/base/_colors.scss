@@ -1,10 +1,17 @@
 @use '../abstracts/variables' as *;
 
-.background {
-    background-color: $bg-form;
+.nav {
+    background-color: $bg-banner;
 }
-
 
 .hero {
     background-color: $bg-gray;
+}
+
+h1 {
+    color: $col-accent;
+}
+
+.hero__subtxt {
+    color: $col-dark;
 }

@@ -1,0 +1,6 @@
+@use '../abstracts/variables' as *;
+
+.bold {
+    font-style: normal;
+    font-weight: $fw-900;
+}

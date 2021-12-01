@@ -1,0 +1,10 @@
+
+.hero {
+    height: 100vh;
+
+    // positioning text in center page
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
