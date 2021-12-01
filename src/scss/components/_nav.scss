@@ -37,8 +37,10 @@
     &__link {
         // reset text-decoration
         text-decoration: none;
+        position: relative;
     }
 
+    // reset hover- &focus-state
     &__link:hover,
     &__link:focus {
         outline: none;

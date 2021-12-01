@@ -4,6 +4,28 @@
     background-color: $bg-banner;
 }
 
+.nav__link {
+    color: $col-light;
+}
+
+.banner {
+    background-color: $bg-banner;
+
+    &--logo {
+        @media (min-width: 700px) {
+            background-color: transparent;
+        }
+    }
+}
+
+.logo {
+    color: $col-light;
+
+    @media (min-width: 700px) {
+        color: $col-dark;
+    }
+}
+
 .hero {
     background-color: $bg-gray;
 }
@@ -12,6 +34,18 @@ h1 {
     color: $col-accent;
 }
 
+.banner__title {
+    color: $col-light;
+}
+
 .hero__subtxt {
     color: $col-dark;
+}
+
+.portfolio__title {
+    color: $col-accent;
+}
+
+.input__title {
+    color: $col-light;
 }

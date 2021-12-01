@@ -13,6 +13,16 @@ p {
     text-align: center;
 }
 
+.logo {
+    font-size: $fs-500;
+    font-weight: $fw-400;
+}
+
+.nav__link {
+    font-size: $fs-500;
+    font-weight: $fw-500;
+}
+
 h1 {
     font-size: $fs-900;
     font-weight: $fw-400;
@@ -25,5 +35,15 @@ h1 {
 }
 
 h2 {
-    
+    font-size: $fs-700;
+}
+
+h3 {
+    font-size: $fs-500;
+    font-weight: $fw-400;
+}
+
+h4 {
+    font-size: $fs-400;
+    font-weight: $fw-500;
 }
