@@ -1,0 +1,15 @@
+@use '../abstracts/variables' as *;
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+ *
+ *  banner__title, 
+ *
+ */
+
+h2 {
+    font-size: $fs-700;
+}
