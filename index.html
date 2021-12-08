@@ -15,251 +15,250 @@
     </head>
     <body class="background">
 
-        <div class="grid">
+        <!-- wrapper: (just for desktop) - keeps content from edge of the screen. -->
+        <div class="wrapper">
 
-            <header class="header">
+            <div class="banner banner--logo">
+                <div class="logo">
+                    kevin\<strong class="bold">bequoye</strong>
+                </div>
+                <a class="burger-btn">
+                    <span class="burger-btn__icon"></span>
+                </a>
+            </div>
 
-                <div class="container uppercase">
+            <!-- border: (just for desktop) - is used to put a border around main content + a background-color is placed here -->
+            <div class="border">
 
-                    <div class="banner banner--logo">
-                        <div class="logo">
-                            kevin\<em class="bold">bequoye</em>
-                        </div>
-                        <a class="burger-btn" aria-hidden="true">
-                            <span class="burger-icon"></span>
-                        </a>
-                    </div>
-                    <!-- end logo-banner -->
-
-                    <nav class="nav invisible">
-                        <ul class="nav__list">
-                            <li class="nav__item">
-                                <a class="nav__link" href="index.html">home</a>
+                <!-- header contains main-nav & hero-section -->
+                <header class="container container--header">
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="index.html">Home</a>
                             </li>
-                            <li class="nav__item">
-                                <a class="nav__link" href="#portfolio">portfolio</a>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#portfolio">Portfolio</a>
                             </li>
-                            <li class="nav__item">
-                                <a class="nav__link" href="#about">about</a>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#about">About</a>
                             </li>
-                            <li class="nav__item">
-                                <a class="nav__link" href="#skills">skills</a>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#skills">Skills</a>
                             </li>
-                            <li class="nav__item">
-                                <a class="nav__link" href="#contact">contact</a>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </nav>
-                    <!-- end main-menu -->
 
-                </div>
-                <!-- end container-logo -->
-                
-            </header>
-
-            <main class="main">
-                
-                <section class="hero uppercase">
-                    <div class="hero__txt">
+                    <section class="hero">
                         <h1 class="hero__title">
-                            <em class="bold">
-                                your
-                                <br>
-                                dream
-                            </em>
+                            <em class="bold">your</em>
+                            <br>
+                            <em class="bold">dream</em>
                             <br>
                             website
                             <br>
-                            will become
+                            becomes
                             <br>
                             reality
                         </h1>
-                        <p class="hero__subtxt">Junior webdeveloper</p>
+                        <p class="hero__txt">front-end webdeveloper</p>
                         <a class="btn" href="#skills">skills</a>
-                    </div>
-                </section>
-                <!-- end hero-section -->
+                    </section>
 
-                <section id="portfolio" class="portfolio">
-                                
-                    <div class="banner">
-                        <h2 class="banner__title uppercase">portfolio</h2>
-                    </div>
-                    <div class="container">
-                        <article class="portfolio__grid portfolio__grid--odd">
-                            <img class="portfolio__img" src="./img/fietsclub.jpg" alt="thumbnail JavaScript-project">
-                            <h3 class="portfolio__title">case\<em class="bold">javascript</em> - <em class="portfolio__extra">PROJECT FIETSCLUB</em></h3>
-                            <div class="portfolio__caption">
-                                <p class="portfolio__txt">Voor de fietsliefhebbers onder ons, dit project betreft een eigen competitie voor fietsclubs onder elkaar.</p>
-                                <p class="portfolio__txt">Hier wordt het aantal fietsritten bijgehouden per persoon , dit wordt gekoppeld aan een eigen puntensysteem.</p>
-                                <p class="portfolio__txt">Een eigen fietsclub toevoegen is mogelijk in de interface, alsook nieuwe leden toevoegen aan zowel nieuwe als bestaande fietsclubs.</p>
-                                <a class="btn" href="loading.html" target="_blank" rel="noopener noreferrer">bekijk case</a>
-                            </div>
-                        </article>
-                        <article class="portfolio__grid">
-                            <img class="portfolio__img" src="./img/screenshot-euler.png" alt="thumbnail JavaScript-project">
-                            <h3 class="portfolio__title">case\<em class="bold">javascript</em> - <em class="portfolio__extra">PROJECT EULER</em></h3>
-                            <div class="portfolio__caption">
-                                <p class="portfolio__txt">Voor wie Project Euler niet kent, dit is een website vol met uitdagende wiskundige- / computerprogrammering oefeningen.</p>
-                                <p class="portfolio__txt">In deze case heb ik een aantal oefeningen opgelost met gebruik van JavaScript.</p>
-                                <a class="btn" href="euler.html" target="_blank" rel="noopener noreferrer">bekijk case</a>
-                            </div>
-                        </article>
-                        <article class="portfolio__grid portfolio__grid--odd">
-                            <img class="portfolio__img" src="./img/screenshot-kleurplaat.png" alt="thumbnail JavaScript-project">
-                            <h3 class="portfolio__title">case\<em class="bold">javascript</em> - <em class="portfolio__extra">KLEURPLAAT</em></h3>
-                            <div class="portfolio__caption">
-                                <p class="portfolio__txt">In dit project wordt er gewerkt met het canvas element in html en hiermee heb ik een kleurplaat/ paint-app gemaakt.</p>
-                                <p class="portfolio__txt">Ik maak gebruik van HTML, CSS en JavaScript (OOP geörienteerd).</p>
-                                <a class="btn" href="kleurplaat.html" target="_blank" rel="noopener noreferrer">bekijk case</a>
-                            </div>
-                        </article>
+                </header>
+
+                <main class="main">
+
+                    <section id="portfolio" class="portfolio">
                         
-                        <article class="portfolio__grid">
-                            <img class="portfolio__img" src="./img/screenshot-responsive.png" alt="thumbnail HTML/ CSS-project">
-                            <h3 class="portfolio__title">case\<em class="bold">html & css</em> - <em class="portfolio__extra">RESPONSIVE WEBDESIGN</em></h3>
-                            <div class="portfolio__caption">
-                                <p class="portfolio__txt">Mijn aanpak om een website responsive te maken is via een mobile-first approach.</p>
-                                <p class="portfolio__txt">Mobile-first, de naam zegt het zelf. Eerst wordt het design op een klein scherm ontworpen om daarna over te gaan naar het design op grotere schermen.</p>
-                                <p class="portfolio__txt">In deze case zie je het ontwerp van zo'n website, het betreft een biografische site van een kunstenaar.</p>
-                                <a class="btn" href="responsive.html" target="_blank" rel="noopener noreferrer">bekijk case</a>
-                            </div>
-                        </article>
-                        <article class="portfolio__grid portfolio__grid--odd">
-                            <img class="portfolio__img" src="./img/portfolio__figma.png" alt="thumbnail Figma-project">
-                            <h3 class="portfolio__title">case\<em class="bold">figma</em> - <em class="portfolio__extra">DESIGN-ONTWERP VAN PORTFOLIO</em></h3>
-                            <div class="portfolio__caption">
-                                <p class="portfolio__txt">Figma is een design-app die ervoor zorgt dat je jouw design met iedereen kan delen en ook met een groep kan aan werken.</p>
-                                <p class="portfolio__txt">Ditmaal heb ik Figma gebruikt voor het design van deze portfolio-website. In deze case zie je hoe het design is opgebouwd.</p>
-                                <a class="btn" href="figma.html" target="_blank" rel="noopener noreferrer">bekijk case</a>
-                            </div>
-                        </article>
-                    </div>
-
-                </section>
-                <!-- end portfolio-section -->
-
-                <section id="about" class="about">
-                    
-                    <div class="banner">
-                        <h2 class="banner__title uppercase">about</h2>
-                    </div>
-                    <div class="about__grid container">
-                        <img class="about__img" src="./img/about-foto.jpg" alt="foto Kevin Bequoye">
-                        <article class="about__caption">
-                            <h3 class="about__title">Wie is Kevin Bequoye ?</h3>
-                            <p class="about__txt">Ik ben Kevin Bequoye, een jongeman van 29 jaar, trotse papa/ pluspapa van vier mooie dochters. Momenteel ben ik in opleiding voor PHP-developer. Mijn passie heb ik gaandeweg gevonden in de front-end ontwikkeling van websites.</p>
-                            <p class="about__txt">Ik ga graag aan de slag met HTML, CSS en JavaScript, om met deze tools een prachtdesign voor een website om te zetten tot een waardige "real-life" versie.</p>
-                            <a class="btn" href="cv.html" target="_blank" rel="noopener noreferrer">BEKIJK CV</a>
-                        </article>
-                    </div>
-
-                </section>
-                <!-- end about-section -->
-
-                <section class="skills">
-                    
-                    <div class="banner" id="skills">
-                        <h2 class="banner__title uppercase">skills</h2>
-                    </div>
-                    <div class="skills__grid container uppercase">
-                        <figure class="skill">
-                            <img class="skill__icon" src="./img/html-icoon.svg" alt="icoon HTML">
-                            <figcaption class="skill__txt">html</figcaption>
-                        </figure>
-                        <figure class="skill">
-                            <img class="skill__icon" src="./img/css-icoon.svg" alt="icoon CSS">
-                            <figcaption class="skill__txt">css</figcaption>
-                        </figure>
-                        <figure class="skill">
-                            <img class="skill__icon" src="./img/javascript-icoon.svg" alt="icoon JavaScript">
-                            <figcaption class="skill__txt">javascript</figcaption>
-                        </figure>
-                        <figure class="skill">
-                            <img class="skill__icon" src="./img/sql-icoon.svg" alt="icoon MySQL">
-                            <figcaption class="skill__txt">mysql</figcaption>
-                        </figure>
-                        <figure class="skill">
-                            <img class="skill__icon" src="./img/git-icoon.svg" alt="icoon GIT">
-                            <figcaption class="skill__txt">git</figcaption>
-                        </figure>
-                        <figure class="skill">
-                            <img class="skill__icon" src="./img/figma-icoon.svg" alt="icoon FIGMA">
-                            <figcaption class="skill__txt">figma</figcaption>
-                        </figure>
-                        <figure class="skill">
-                            <img class="skill__icon" src="./img/php-icoon.svg" alt="icoon PHP">
-                            <figcaption class="skill__txt">php</figcaption>
-                        </figure>
-                        <figure class="skill">
-                            <img class="skill__icon" src="./img/react-icoon.png" alt="icoon Framework">
-                            <figcaption class="skill__txt">framework</figcaption>
-                        </figure>
-                    </div>
-
-                </section>
-                <!-- end skills-section -->
-
-                <section id="contact" class="contact">
-                    
-                    <div class="banner">
-                        <h2 class="banner__title uppercase">contact</h2>
-                    </div>
-                    <ul class="contact__list container">
-                        <li class="contact__item">
-                            <h3 class="contact__name">Kevin Bequoye</h3>
-                            <address>
-                                Kloosterhof 9
-                                <br>
-                                8650 Houthulst
-                            </address>
-                        </li>
-
-                        <li class="contact__item">
-                            <ul class="contact__sublist">
-                                <li class="contact__subitem">
-                                    <a class="contact__link" href="tel:0496861668">0496 86 16 68</a>
-                                </li>
-                                <li class="contact__subitem">
-                                    <a class="contact__link" href="mailto:beq.kevin@gmail.com">beq.kevin@gmail.com</a>
-                                </li>
-                                <li class="contact__subitem">
-                                    <a class="contact__link" href="https://github.com/Kevin1407B" target="_blank" rel="noopener noreferrer">Github</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <form class="contact__form" action="https://formsubmit.co/beq.kevin@gmail.com" method="POST">
-                        <div class="container">
-                            <h3 class="contact__title uppercase">let's work together</h3>
-                            <section class="contact__input">
-                                <h4 class="input__title">Naam</h4>
-                                <input class="input__veld" type="text" name="name" placeholder="Naam" required>
-                            </section>
-                            <section class="contact__input">
-                                <h4 class="input__title">E-mail</h4>
-                                <input class="input__veld" type="email" name="email" placeholder="E-mailadres" required>
-                            </section>
-                            <section class="contact__input">
-                                <h4 class="input__title">Laat van jou horen</h4>
-                                <textarea class="input__veld" name="text" id="contact__tekst" placeholder="Uw bericht"></textarea>
-                            </section>
-                            <input type="hidden" name="_next" value="https://kevinbequoye.be/bedankt.html">
-                            <button class="btn contact__btn" type="submit">verstuur</button>
+                        <div class="banner">
+                            <h2 class="banner__title">portfolio</h2>
                         </div>
-                    </form>
-                        
-                </section>
-                <!-- end contact-section -->
-            </main>
+                        <div class="container">
+                            <article class="portfolio__grid portfolio__grid--odd">
+                                <img class="portfolio__img" src="./img/fietsclub.jpg" alt="thumbnail JavaScript-project">
+                                <h3 class="portfolio__title">case\<strong class="bold">javascript</strong> - <em class="portfolio__extra">PROJECT FIETSCLUB</em></h3>
+                                <div class="portfolio__caption">
+                                    <p class="portfolio__txt">Voor de fietsliefhebbers onder ons, dit project betreft een eigen competitie voor fietsclubs onder elkaar.</p>
+                                    <p class="portfolio__txt">Hier wordt het aantal fietsritten bijgehouden per persoon , dit wordt gekoppeld aan een eigen puntensysteem.</p>
+                                    <p class="portfolio__txt">Een eigen fietsclub toevoegen is mogelijk in de interface, alsook nieuwe leden toevoegen aan zowel nieuwe als bestaande fietsclubs.</p>
+                                    <a class="btn" href="loading.html" target="_blank" rel="noopener noreferrer">bekijk case</a>
+                                </div>
+                            </article>
+                            <article class="portfolio__grid">
+                                <img class="portfolio__img" src="./img/screenshot-euler.png" alt="thumbnail JavaScript-project">
+                                <h3 class="portfolio__title">case\<strong class="bold">javascript</strong> - <em class="portfolio__extra">PROJECT EULER</em></h3>
+                                <div class="portfolio__caption">
+                                    <p class="portfolio__txt">Voor wie Project Euler niet kent, dit is een website vol met uitdagende wiskundige- / computerprogrammering oefeningen.</p>
+                                    <p class="portfolio__txt">In deze case heb ik een aantal oefeningen opgelost met gebruik van JavaScript.</p>
+                                    <a class="btn" href="euler.html" target="_blank" rel="noopener noreferrer">bekijk case</a>
+                                </div>
+                            </article>
+                            <article class="portfolio__grid portfolio__grid--odd">
+                                <img class="portfolio__img" src="./img/screenshot-kleurplaat.png" alt="thumbnail JavaScript-project">
+                                <h3 class="portfolio__title">case\<strong class="bold">javascript</strong> - <em class="portfolio__extra">KLEURPLAAT</em></h3>
+                                <div class="portfolio__caption">
+                                    <p class="portfolio__txt">In dit project wordt er gewerkt met het canvas element in html en hiermee heb ik een kleurplaat/ paint-app gemaakt.</p>
+                                    <p class="portfolio__txt">Ik maak gebruik van HTML, CSS en JavaScript (OOP geörienteerd).</p>
+                                    <a class="btn" href="kleurplaat.html" target="_blank" rel="noopener noreferrer">bekijk case</a>
+                                </div>
+                            </article>
+                            
+                            <article class="portfolio__grid">
+                                <img class="portfolio__img" src="./img/screenshot-responsive.png" alt="thumbnail HTML/ CSS-project">
+                                <h3 class="portfolio__title">case\<strong class="bold">html & css</strong> - <em class="portfolio__extra">RESPONSIVE WEBDESIGN</em></h3>
+                                <div class="portfolio__caption">
+                                    <p class="portfolio__txt">Mijn aanpak om een website responsive te maken is via een mobile-first approach.</p>
+                                    <p class="portfolio__txt">Mobile-first, de naam zegt het zelf. Eerst wordt het design op een klein scherm ontworpen om daarna over te gaan naar het design op grotere schermen.</p>
+                                    <p class="portfolio__txt">In deze case zie je het ontwerp van zo'n website, het betreft een biografische site van een kunstenaar.</p>
+                                    <a class="btn" href="responsive.html" target="_blank" rel="noopener noreferrer">bekijk case</a>
+                                </div>
+                            </article>
+                            <article class="portfolio__grid portfolio__grid--odd">
+                                <img class="portfolio__img" src="./img/portfolio__figma.png" alt="thumbnail Figma-project">
+                                <h3 class="portfolio__title">case\<strong class="bold">figma</strong> - <em class="portfolio__extra">DESIGN-ONTWERP VAN PORTFOLIO</em></h3>
+                                <div class="portfolio__caption">
+                                    <p class="portfolio__txt">Figma is een design-app die ervoor zorgt dat je jouw design met iedereen kan delen en ook met een groep kan aan werken.</p>
+                                    <p class="portfolio__txt">Ditmaal heb ik Figma gebruikt voor het design van deze portfolio-website. In deze case zie je hoe het design is opgebouwd.</p>
+                                    <a class="btn" href="figma.html" target="_blank" rel="noopener noreferrer">bekijk case</a>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- end container-class -->
+            
+                    </section>
+                    <!-- end portfolio-section -->
 
+                    <section id="about" class="about">
+                        
+                        <div class="banner">
+                            <h2 class="banner__title">about</h2>
+                        </div>
+                        <div class="about-grid container">
+                            <img class="about__img" src="./img/about-foto.jpg" alt="foto Kevin Bequoye">
+                            <article class="about__caption">
+                                <h3 class="about__title">Wie is Kevin Bequoye ?</h3>
+                                <p class="about__txt">Ik ben Kevin Bequoye, een jongeman van 29 jaar, trotse papa/ pluspapa van vier mooie dochters. Momenteel ben ik in opleiding voor PHP-developer. Mijn passie heb ik gaandeweg gevonden in de front-end ontwikkeling van websites.</p>
+                                <p class="about__txt">Ik ga graag aan de slag met HTML, CSS en JavaScript, om met deze tools een prachtdesign voor een website om te zetten tot een waardige "real-life" versie.</p>
+                                <a class="btn" href="cv.html" target="_blank" rel="noopener noreferrer">BEKIJK CV</a>
+                            </article>
+                        </div>
+
+                    </section>
+                    <!-- end about-section -->
+
+                    <section class="skills">
+                        
+                        <div class="banner" id="skills">
+                            <h2 class="banner__title">skills</h2>
+                        </div>
+                        <div class="skills-grid container">
+                            <figure class="skill">
+                                <img class="skill__icon" src="./img/html-icoon.svg" alt="icoon HTML">
+                                <figcaption class="skill__txt">html</figcaption>
+                            </figure>
+                            <figure class="skill">
+                                <img class="skill__icon" src="./img/css-icoon.svg" alt="icoon CSS">
+                                <figcaption class="skill__txt">css</figcaption>
+                            </figure>
+                            <figure class="skill">
+                                <img class="skill__icon" src="./img/javascript-icoon.svg" alt="icoon JavaScript">
+                                <figcaption class="skill__txt">javascript</figcaption>
+                            </figure>
+                            <figure class="skill">
+                                <img class="skill__icon" src="./img/sql-icoon.svg" alt="icoon MySQL">
+                                <figcaption class="skill__txt">mysql</figcaption>
+                            </figure>
+                            <figure class="skill">
+                                <img class="skill__icon" src="./img/git-icoon.svg" alt="icoon GIT">
+                                <figcaption class="skill__txt">git</figcaption>
+                            </figure>
+                            <figure class="skill">
+                                <img class="skill__icon" src="./img/figma-icoon.svg" alt="icoon FIGMA">
+                                <figcaption class="skill__txt">figma</figcaption>
+                            </figure>
+                            <figure class="skill">
+                                <img class="skill__icon" src="./img/php-icoon.svg" alt="icoon PHP">
+                                <figcaption class="skill__txt">php</figcaption>
+                            </figure>
+                            <figure class="skill">
+                                <img class="skill__icon" src="./img/react-icoon.png" alt="icoon Framework">
+                                <figcaption class="skill__txt">framework</figcaption>
+                            </figure>
+                        </div>
+
+                    </section>
+                    <!-- end skills-section -->
+
+                    <section id="contact" class="contact">
+                        
+                        <div class="banner">
+                            <h2 class="banner__title">contact</h2>
+                        </div>
+                        <ul class="contact__list container">
+                            <li class="contact__item">
+                                <h3 class="contact__name">Kevin Bequoye</h3>
+                                <address>
+                                    Kloosterhof 9
+                                    <br>
+                                    8650 Houthulst
+                                </address>
+                            </li>
+
+                            <li class="contact__item">
+                                <ul class="contact__sublist">
+                                    <li class="contact__subitem">
+                                        <a class="contact__link" href="tel:0496861668">0496 86 16 68</a>
+                                    </li>
+                                    <li class="contact__subitem">
+                                        <a class="contact__link" href="mailto:beq.kevin@gmail.com">beq.kevin@gmail.com</a>
+                                    </li>
+                                    <li class="contact__subitem">
+                                        <a class="contact__link" href="https://github.com/Kevin1407B" target="_blank" rel="noopener noreferrer">Github</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <form class="contact__form" action="https://formsubmit.co/beq.kevin@gmail.com" method="POST">
+                            <div class="container">
+                                <h3 class="contact__title">let's work together</h3>
+                                <section class="contact__input">
+                                    <h4 class="input__title">Naam</h4>
+                                    <input class="input__veld" type="text" name="name" placeholder="Naam" required>
+                                </section>
+                                <section class="contact__input">
+                                    <h4 class="input__title">E-mail</h4>
+                                    <input class="input__veld" type="email" name="email" placeholder="E-mailadres" required>
+                                </section>
+                                <section class="contact__input">
+                                    <h4 class="input__title">Laat van jou horen</h4>
+                                    <textarea class="input__veld" name="text" id="contact__tekst" placeholder="Uw bericht"></textarea>
+                                </section>
+                                <input type="hidden" name="_next" value="https://kevinbequoye.be/bedankt.html">
+                                <button class="btn contact__btn" type="submit">verstuur</button>
+                            </div>
+                        </form>
+                            
+                    </section>
+                    <!-- end contact-section -->
+
+                </main>
+
+            </div>
+            <!-- end border-class -->
+            
             <footer class="footer">
                 <p class="footer__txt">Copyright &copy; 2021, All Rights Reserved | Kevin Bequoye</p>
-            </footer>                        
-                        
-        </div>
-        <!-- end grid-layout -->
+            </footer>
 
+        </div>
+        <!-- end wrapper -->
+            
     </body>
+    <!-- end background -->
+
 </html>
