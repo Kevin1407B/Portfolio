@@ -1,15 +1,114 @@
 @use '../abstracts/variables' as *;
 
+/*
+ *  ----------------------------------------------------
+ */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
 /*
- *
- *  banner__title, 
- *
+ *  ----------------------------------------------------
+ */
+
+.bold {
+    font-weight: $fw-900;
+    font-style: normal;
+}
+
+/*
+*  ----------------------------------------------------
+*/
+
+.logo {
+    font-size: $fs-500;
+}
+
+/*
+ *  ----------------------------------------------------
+ */
+
+ .menu__link {
+    font-size: $fs-500;
+    font-weight: $fw-500;
+    text-decoration: none;
+}
+
+/*
+ *  ----------------------------------------------------
+ *  h1 = hero__title
+ */
+
+h1 {
+    font-size: $fs-900;
+    font-weight: $fw-400;
+    line-height: $lh-small;
+}
+
+/*
+ *  ----------------------------------------------------
+ *  h2 = banner__title
  */
 
 h2 {
     font-size: $fs-700;
+    font-weight: $fw-700;
+    letter-spacing: $ls-small;
 }
+
+/*
+ *  ----------------------------------------------------
+ *  h3 = contact__title, 
+ *       contact__name, 
+ *       about__title, 
+ *       portfolio__title
+ */
+
+h3 {
+    font-size: $fs-500;
+    font-weight: $fw-500;
+    letter-spacing: $ls-small;
+}
+
+.portfolio__title {
+    font-weight: $fw-400;
+}
+
+/*
+ *  ----------------------------------------------------
+ *  h4 = input__title
+ */
+
+h4 {
+    font-size: $fs-400;
+    font-weight: $fw-500;
+    text-align: start;
+}
+
+/*
+ *  ----------------------------------------------------
+ *  p = hero__txt,
+        portfolio__txt,
+        about__txt,
+        footer__txt
+ */
+
+p {
+    font-size: $fs-400;
+    line-height: $lh-big;
+    letter-spacing: $ls-small;
+}
+
+.portfolio__txt,
+.about__txt {
+    max-width: 40ch;
+}
+
+.footer__txt {
+    font-size: $fs-footer;
+}
+
+/*
+ *  ----------------------------------------------------
+ */
