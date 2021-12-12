@@ -1,0 +1,6 @@
+.wrapper {
+    @media (min-width: 700px) {
+        width: min(85%, 1100px);
+        margin: 0 auto;
+    }
+}

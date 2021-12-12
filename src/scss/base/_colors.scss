@@ -1,5 +1,142 @@
 @use '../abstracts/variables' as *;
 
+.background {
+    background-color: $bg-gray;
+
+    @media (min-width: 700px) {
+        background-image: url(/src/img/achtergrond--desktop.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.border {
+    @media (min-width: 700px) {
+        background-color: rgba(230, 230, 230, 1);
+    }
+}
+
+.logo {
+    color: $col-light;
+
+    @media (min-width: 700px) {
+        color: $col-dark;
+    }
+}
+
+.banner {
+    background-color: $bg-banner;
+
+    &--logo {
+        @media (min-width: 700px) {
+            background-color: transparent;
+        }
+    }
+}
+
 .banner__title {
     color: $col-light;
+}
+
+.menu {
+    background-color: $bg-banner;
+
+    &__link {
+        color: $col-light;
+
+        &::after {
+            background-color: currentColor;
+        }
+
+        @media (min-width: 700px) {
+            color: $col-dark;
+        }
+    }
+
+    @media (min-width: 700px) {
+        background-color: transparent;
+    }
+}
+
+.hero__title {
+    color: $col-accent;
+}
+
+.hero__txt {
+    color: $col-dark;
+}
+
+.portfolio__title {
+    color: $col-accent;
+}
+
+.portfolio__extra {
+    color: $col-dark;
+}
+
+.portfolio__txt {
+    color: $col-dark;
+}
+
+.about__title {
+    color: $col-accent;
+}
+
+.about__txt {
+    color: $col-dark;
+}
+
+.skill__txt {
+    color: $col-accent;
+}
+
+.contact__name {
+    color: $col-accent;
+}
+
+.contact__list {
+    color: $col-dark;
+}
+
+.contact__sublist {
+    color: $col-dark;
+}
+
+.contact__form {
+    background-color: $bg-form;
+}
+
+.contact__title {
+    color: $col-light;
+
+    &::after {
+        background-color: currentColor;
+    }
+}
+
+.contact__link {
+    color: $col-dark;
+
+    &:hover,
+    &:focus {
+        color: $col-accent;
+    }
+}
+
+.contact__input {
+    & input:hover,
+    & textarea:hover,
+    & input:focus,
+    & textarea:focus {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+}
+
+.input__title {
+    color: $col-light;
+}
+
+.footer__txt {
+    color: $col-dark;
 }
