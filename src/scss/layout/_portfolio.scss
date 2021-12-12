@@ -1,0 +1,29 @@
+.portfolio {
+    &__title {
+        margin-bottom: 1rem;
+    }
+
+    &__txt {
+        max-width: 40ch;
+        margin: 0 auto 1rem;
+
+        &:nth-last-child(2) {
+            margin-bottom: 3rem;
+        }
+    }
+
+    &__grid {
+        margin-bottom: 5rem;
+
+        &:nth-of-type(5) {
+            margin-bottom: 0;
+        }
+    }
+
+    &__img {
+        opacity: 0.85;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+        margin-bottom: 1rem;
+    }
+}

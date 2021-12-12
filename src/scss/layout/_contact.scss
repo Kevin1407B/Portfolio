@@ -1,0 +1,68 @@
+.contact {
+    &__name {
+        margin-bottom: 0.5rem;
+    }
+
+    &__input {
+        margin-bottom: 1rem;
+
+        &:nth-of-type(3) {
+            margin-bottom: 3rem;
+        }
+    }
+
+    &__list,
+    &__sublist {
+        list-style: none;
+        padding: 0;
+    }
+
+    &__title {
+        margin-bottom: 3rem;
+        position: relative;
+
+        &::after {
+            content: '';
+            width: 30%;
+            height: 2px;
+
+            position: absolute;
+            left: 35%;
+            top: 2rem;
+        }
+    }
+
+    &__item {
+        margin-bottom: 1rem;
+    }
+
+    &__subitem {
+        margin-bottom: 0.5rem;
+
+        &:nth-of-type(3) {
+            margin-bottom: 0;
+        }
+    }
+
+    &__link:hover,
+    &__link:focus {
+        outline: none;
+    }
+
+    &__input input,
+    &__input textarea {
+        border: none;
+        border-radius: 5px;
+        min-width: 100%;
+        padding: 0.5rem;
+
+        &:hover,
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.input__title {
+    margin-bottom: 0.5rem;
+}

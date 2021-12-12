@@ -140,3 +140,24 @@
 .footer__txt {
     color: $col-dark;
 }
+
+.btn {
+    color: $col-accent;
+    background-color: transparent;
+
+    &:hover,
+    &:focus {
+        color: $col-light;
+        background-color: $col-accent;
+    }
+
+    &--contact {
+        color: $col-light;
+
+        &:hover,
+        &:focus {
+            background-color: $col-light;
+            color: $col-dark;
+        }
+    }
+}
